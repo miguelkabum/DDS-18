@@ -1,10 +1,12 @@
 import './App.css'
+import Card from "./componets/card/index.jsx"
 
 function App() {
   return (
     <>
-      <div>
-        
+      <div className="cards">
+        <Card />
+        <Card />
       </div>
       
     </>
