@@ -1,4 +1,11 @@
-body{
-    background-color: black;
+.cards{
     display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+body{
+    background-color: rgb(161, 102, 102);
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
 }
